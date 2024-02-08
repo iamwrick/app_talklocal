@@ -1,0 +1,6 @@
+include *.txt *.md  # Include text files and markdown files
+recursive-include main *.py  # Include Python files in the 'main' directory
+recursive-include subtitle *  # Include files in the 'subtitle' directory
+include models.py
+include core.py
+include handle_error.py
